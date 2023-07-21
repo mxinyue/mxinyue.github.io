@@ -1,0 +1,110 @@
+  * {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+  }
+   
+  
+  p {
+    padding: 20px 55px;
+  }
+   
+   
+  a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 10px; 
+    margin: 10px;
+    background: #757263;
+  }
+
+
+  a:hover {
+    background: #E1CCBE;
+    color: #757263;    
+  }
+
+
+  nav {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    display: inline-block;
+  }
+
+
+  nav li {
+    display: inline-block;
+  }
+
+
+  nav a {
+    font-family: Oranienbaum, serif;
+    color: #E1CCBE;
+  }
+
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 66px;
+    background: #757263;
+    z-index: 2;
+  }
+
+
+  h1 {
+    font-size: 72px;
+    color: #757263;
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 14px;
+    color: #757263;
+    text-align: center;
+    padding: 4px 0 0 0;
+  }
+
+
+  #title {
+    background: #E1CCBE;
+    border-radius: 20px;
+    padding: 5px;
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    display: inline-block;
+  }
+
+  #title h1,
+  #title h6 {
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  }
+
+
+  #bigHalfCircle {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    z-index: 1;
+  }
+
+
+  #bigHalfCircle path {
+	fill: #757263;
+  }
+
+  main {
+    position: relative;
+    overflow: scroll;
+    background: #fff;
+    padding: 100px 0 0 0;
+  }
