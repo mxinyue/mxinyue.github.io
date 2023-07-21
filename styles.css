@@ -53,7 +53,7 @@
   }
 
 
-  button {
+  nav a {
     border-radius: 5px;
     border: 1px solid transparent;
     padding: 2px 10px; 
@@ -62,13 +62,13 @@
     background: transparent;
   }
 
-  button:hover {
+  nav a:hover {
     background: #E1CCBE;
     color: #757263;
     border-color: #E1CCBE; 
   }
 
-  button:active {
+  nav a:active {
     background: #757263;
     color: #E1CCBE;
   }
