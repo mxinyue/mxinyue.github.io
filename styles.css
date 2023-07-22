@@ -136,12 +136,14 @@ article {
   margin: 20px 0;
 }
 .text-container {
-  margin: 0 0 20px 0;
   break-inside: avoid;
+  margin: 0 0 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 p {
-  margin: 0 0 20px 0;
+  margin: 20px 0;
   text-align: justify;
 }
 
@@ -294,6 +296,7 @@ footer h6 {
 .font-label {
   font-size: 20px;
   text-decoration: underline;
+  margin: 0 0 20px 0;
 }
 
 .regular {
