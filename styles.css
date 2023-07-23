@@ -6,6 +6,12 @@
   margin: 0;
   }
 
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
 /* HEADER */
 
 header {
@@ -95,6 +101,8 @@ main {
   position: relative;
   overflow: scroll;
   background: #fff;
+  height: 100%;
+  width: 100%;
 }
 
 .hero {
@@ -161,7 +169,7 @@ li {
 
 .col2 {
   column-count: 2;
-  column-gap: 50px;
+  column-width: 300px;
 }
 
 .colspan {
