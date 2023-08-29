@@ -159,9 +159,8 @@ li {
   margin-left: 20px;
 }
 
-.clist {
+.plainlist {
   margin: 0;
-  text-align: center;
   list-style-type: none;
   font-family: Oranienbaum, serif;
   font-size: 32px;
