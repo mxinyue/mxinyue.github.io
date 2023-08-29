@@ -159,6 +159,17 @@ li {
   margin-left: 20px;
 }
 
+.clist {
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  font-family: Oranienbaum, serif;
+  font-size: 32px;
+  color: #757263;
+  letter-spacing: 10px; 
+  text-transform: lowercase;
+}
+
 .container {
   border: 5px solid #E1CCBE;
   padding: 2%;
