@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--...-->
+    <link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" />
+    <link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" />
+    <link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+    <!--...-->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap"
+      media="print" onload="this.media='all'" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap"
+      media="print" onload="this.media='all'" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      media="print" onload="this.media='all'" />
+    <!--...-->
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+    </noscript>
+    <!--Stylesheet-->
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Another Bad Idea</title>
+</head>
+<body bgcolor="#757263">
+    <!--Header-->
+    <header>
+        <div id="title">
+            <!--Page Title-->
+            <a href="index.html">
+                <h1>愚蠢</h1><h5 class="center">Another Bad Idea</h5><h1>主意</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="sketchbook.html">sketchbook</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="prints.html">prints</a></li>
+                <li><a href="writing.html">writing samples</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="style-guide.html">style guide</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Arch Divider-->
+    <svg id="divider" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 50" preserveAspectRatio="none">
+        <path d="M200 0 200 50 Q 150 0 100 0 Z" />
+        <path d="M0 0 0 50 Q 50 0 100 0 Z" />
+    </svg>
+    <!--Main Content-->
+    <main>
+        <!--Hero-->
+        <div class="hero">
+            <img src="bird.gif" alt="hand drawn bird animation" />
+            <span class="welcome">welcome</span>
+        </div>
+        <p>
+            <a>Case Study I</a> | <a>Process Recording</a> | <a>Literature Review</a>
+        </p>
+    </main>
+    <!--Footer-->
+    <footer>
+        <h6>©2023 holly moy</h6>
+    </footer>
+</body>
+</html>
