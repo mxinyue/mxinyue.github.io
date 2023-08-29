@@ -164,6 +164,13 @@ li {
   list-style-type: none;
 }
 
+.hoverbg a:hover {
+  background: #E1CCBE;
+  color: #757263;
+  border-color: #E1CCBE; 
+  text-decoration: none;
+}
+
 .container {
   border: 5px solid #E1CCBE;
   padding: 2%;
